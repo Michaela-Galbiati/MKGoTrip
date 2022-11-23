@@ -1,0 +1,244 @@
+@charset "UTF-8";
+@font-face {
+  font-family: caviar;
+  src: url(caviar_dreams/CaviarDreams.ttf) format("truetype");
+}
+@font-face {
+  font-family: delmon;
+  src: url(./DelmonDelicate.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#menu {
+  background-color: #000B80;
+  color: white;
+}
+
+.li {
+  margin: 10px;
+}
+
+a.titulo {
+  font-family: "caviar", "Courier New", Courier, monospace;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #000B80;
+}
+
+:target {
+  scroll-margin-top: 70px;
+}
+
+main {
+  margin: auto;
+  margin: 100px 5px 0px 5px;
+}
+
+img {
+  width: 1000px;
+  height: 600px;
+}
+
+div#texto {
+  width: 550px;
+}
+
+#botão {
+  border-radius: 100px 100px;
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: white;
+  background-color: #d49b2a;
+  border: 2px solid #d49b2a;
+  font-size: 25px;
+  animation: go-back 3s ease-in-out infinite;
+}
+
+@keyframes go-back {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+#botão:hover {
+  background-color: #000B80;
+  border: 2px solid #000B80;
+}
+
+p#sombra {
+  margin-left: 10px;
+  border-radius: 50%;
+  width: 60px;
+  height: 20px;
+  background-color: rgba(174, 139, 11, 0.3764705882);
+  animation: expandir 3.8s infinite;
+}
+
+@keyframes expandir {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+}
+@media (max-width: 700px) {
+  img {
+    width: 300px;
+    height: 400px;
+  }
+  div#texto {
+    width: 400px;
+    height: 200px;
+  }
+}
+div.empresa {
+  background-color: #d49b2a;
+  color: white;
+  padding: 40px 20px 40px 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+div#empresa > h4, h6 {
+  padding: 10px;
+}
+
+div#pacotes {
+  margin: 10px 10px 10px 10px;
+}
+
+div#internacional {
+  margin: 40px 0px 40px 0px;
+}
+
+div#nacional {
+  margin: 40px 0px 0px 0px;
+  padding: 20px 0px 40px 0px;
+}
+
+#decoração {
+  background-color: rgba(218, 218, 218, 0.5215686275);
+  color: black;
+  border-radius: 5px;
+}
+
+div#opinioes {
+  margin: 40px 0px 20px 0px;
+  background-color: #e6ce9d;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+div#opinioes > h3 {
+  margin: 30px;
+}
+
+.paragrafo {
+  background-color: white;
+  padding: 5px;
+  border-radius: 30px 30px 30px 0px;
+}
+
+.bloco {
+  background-color: #d49b2a;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.saiba {
+  text-decoration: none;
+  color: white;
+}
+
+.saiba:hover {
+  color: #000B80;
+}
+
+div#saibamais {
+  margin: 40px 0px 0px 0px;
+  padding: 20px;
+  background-color: #d49b2a;
+}
+
+.button {
+  background-color: #000B80;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+#op {
+  display: inline-flex;
+  padding: 20px;
+  margin-left: 30%;
+}
+
+#bola {
+  margin-left: 45%;
+  display: inline-flex;
+}
+
+.bolinha {
+  background-color: #000B80;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#bl1 {
+  width: 400px;
+  display: inline-flex;
+  margin: 10px 0px 0px 0px;
+  padding: 20px;
+}
+
+#bl2 {
+  display: none;
+  width: 400px;
+  margin: 20px 0px 0px 0px;
+  padding: 10px;
+}
+
+#bl3 {
+  display: none;
+  width: 400px;
+  margin: 20px 0px 0px 0px;
+  padding: 10px;
+}
+
+.foto {
+  height: 250px;
+  width: 200px;
+}
+
+@media (max-width: 1000px) {
+  #op {
+    margin-left: -10px;
+  }
+}
+footer {
+  text-align: center;
+  margin: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
