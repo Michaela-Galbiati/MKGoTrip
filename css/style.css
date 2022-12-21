@@ -138,10 +138,11 @@ div#nacional {
 }
 
 div#opinioes {
-  margin: 40px 0px 20px 0px;
+  margin: 0 auto;
   background-color: #e6ce9d;
   padding: 5px;
   border-radius: 5px;
+  max-width: 400px;
 }
 
 div#opinioes > h3 {
@@ -158,8 +159,6 @@ div#opinioes > h3 {
   background-color: #d49b2a;
   border-radius: 10px;
   text-align: center;
-  padding: 20px;
-  margin: 20px;
 }
 
 .saiba {
@@ -188,7 +187,6 @@ div#saibamais {
 #op {
   display: inline-flex;
   padding: 20px;
-  margin-left: 30%;
 }
 
 #bola {
@@ -206,22 +204,19 @@ div#saibamais {
 }
 
 #bl1 {
-  width: 400px;
   display: inline-flex;
   margin: 10px 0px 0px 0px;
-  padding: 20px;
+  padding: 10px;
 }
 
 #bl2 {
   display: none;
-  width: 400px;
   margin: 20px 0px 0px 0px;
   padding: 10px;
 }
 
 #bl3 {
   display: none;
-  width: 400px;
   margin: 20px 0px 0px 0px;
   padding: 10px;
 }
@@ -229,11 +224,15 @@ div#saibamais {
 .foto {
   height: 250px;
   width: 200px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
 }
 
-@media (max-width: 1000px) {
-  #op {
-    margin-left: -10px;
+@media (max-width: 800px) {
+  .bloco {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 footer {
