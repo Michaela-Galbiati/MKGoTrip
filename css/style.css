@@ -111,10 +111,10 @@ div.empresa {
   color: white;
   padding: 40px 20px 40px 20px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 0px 20px 20px 20px;
 }
 
-div#empresa > h4, h6 {
+div.empresa > h4, h6 {
   padding: 10px;
 }
 
@@ -142,7 +142,7 @@ div#opinioes {
   background-color: #e6ce9d;
   padding: 5px;
   border-radius: 5px;
-  max-width: 400px;
+  max-width: 900px;
 }
 
 div#opinioes > h3 {
@@ -159,6 +159,10 @@ div#opinioes > h3 {
   background-color: #d49b2a;
   border-radius: 10px;
   text-align: center;
+  width: 350px;
+  left: 50%;
+  right: 50%;
+  justify-content: center;
 }
 
 .saiba {
@@ -185,8 +189,11 @@ div#saibamais {
 }
 
 #op {
-  display: inline-flex;
   padding: 20px;
+  justify-content: center;
+  left: 50%;
+  right: 50%;
+
 }
 
 #bola {
